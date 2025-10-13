@@ -1,0 +1,27 @@
+# s = set() 
+# n = input("Enter a number: ")
+# s.add(int(n))
+# n = input("Enter a number: ")
+# s.add(int(n))
+# n = input("Enter a number: ")
+# s.add(int(n))
+# n = input("Enter a number: ")
+# s.add(int(n))
+# n = input("Enter a number: ")
+# s.add(int(n))
+# n = input("Enter a number: ")
+# s.add(int(n))
+# n = input("Enter a number: ")
+# s.add(int(n))
+
+# print(s)
+
+a = set()
+
+a.add(5)
+a.add(5.0)
+a.add("5")
+a.add("5.0")
+
+print(len(a))
+print(a)
